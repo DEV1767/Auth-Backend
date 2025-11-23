@@ -176,7 +176,7 @@ Authorization: Bearer <accessToken>
 
 ### 6️⃣ Reset Forgotten Password
 
-**POST** `/api/v1/auth/reset-password/:token`
+**POST** `/api/v1/auth/reset-password/:resettoken`
 
 ```json
 {
@@ -225,8 +225,7 @@ Authorization: Bearer <accessToken>
 You can test the APIs using:
 
 - Postman
-- Thunder Client
-- Hoppscotch
+
 
 Make sure to enable **cookies** in your API client.
 
@@ -235,5 +234,5 @@ Make sure to enable **cookies** in your API client.
 ## 👨‍💻 Author
 
 **Shivam**  
-BE (AI & ML) | First Year | JNNCE Shivamogga  
+BE (AI & ML)  JNNCE Shivamogga  
 Learning Backend & Full-Stack Development 🚀
